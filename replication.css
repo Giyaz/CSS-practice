@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(190, 183, 183);
+}
+.wrapper{
+    background-image: url(../images/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* width: 100%; */
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.header{
+    background-color: orange;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    align-items: center;
+    
+    
+
+}
+li{
+    display: inline;
+    margin: 30px;
+}
+.box{
+    background-color: orange;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    row-gap: 10px;
+}
+
+.food{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
+    gap: 30px;
+    padding-top: 100px;
+    
+}
+.pic1{
+    background-image: url(../images/food1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+    
+
+}
+.pic2{
+    background-image: url(../images/food2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        padding-left: 20px;
+        padding-bottom: 20px;
+}
+.pic3{
+    background-image: url(../images/food3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        
+}
+.food h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+    padding-bottom: 10px;
+
+}
+.food h2{
+    color: orange;
+    font-size: 15px;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+}
+.empty{
+    height:150px;
+}
+.block{
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px; 
+    height: 130px;
+    padding: 0 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.block .text h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.block .text h2{
+    font-size:15px;
+}
+#email{
+    height: 40px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5%;
+    
+
+}
+.block .bar button{
+    height: 40px;
+    width: 100px;
+    background-color: orangered;
+    border-radius: 10%;
+    color: white;
+}
+
+.rpic{
+    width: 370px;
+    object-fit: cover;
+    height: 300px;
+
+}
+.lpic{
+    width: 245px;
+    height: 300px;
+    object-fit: cover;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 90%;
+    margin:0 auto;
+    padding-top: 40px;
+    gap: 30px;
+    padding-bottom: 40px;
+}
+.grid h1{
+    font-size: 22px;
+    margin-top: 25px;
+}
+.bar input{
+    padding-left: 10px;
+}
+
+.last{
+    width: 100%;
+    background-color: orange;
+    margin: 0 auto;
+    
+}
+.lastpics {
+    width: 150px;
+    height: 100px;
+}
+.rowpic{
+    display: flex;
+    flex-direction: row;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .three{
+    grid-column: 1/4;
+} */
